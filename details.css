@@ -1,0 +1,112 @@
+/* css trang details */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #000;
+    background-color: #82ccdd;
+}
+.menu ul{
+    list-style-type: none;
+    background: #8395a7;
+    text-align: center;
+}
+.menu ul li{
+    color: rgb(0, 0, 0);
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+.menu li:hover{
+    border-radius: 10px;
+    background: #f8a5c2;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    /* background: #FF0; */
+    background: #f8a5c2;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+.menu ul li>.menucon{
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover .menucon{
+    border-inline: 15px;
+    display: block;
+}
+.content{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgb(252, 252, 252);
+    /* border: 1px solid ; */
+}
+.box img{
+    border-radius: 3%;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 2px 2px 3px 2px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+h1{
+    margin: 5px;
+    text-align: center;
+}
+.details{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.imgs img{
+    max-width: 300px;
+    padding: 5px;
+    margin: 15px;
+}
+.pa {
+    max-width: 350px;
+    margin: 10px;
+}
+.content h4{
+    padding: 15px;
+}
+.content{
+    /* max-width: 1000px; */
+    /* margin: auto; */
+    border: 1px solid ;
+}
+.more{
+    max-width: 1000px;
+    margin-top: 15px;
+    text-align: center;
+}
+.more> button:hover{
+    box-shadow: 5px 5px 5px yellow;
+}
+button{
+    background-color: #48dbfb;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: 0.4s;
+}
+span{
+    margin-top: 2px;
+}
